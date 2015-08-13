@@ -13,7 +13,7 @@ Currently can find data for
 * RIPE RIS https://www.ripe.net/analyse/internet-measurements/routing-information-service-ris/ris-raw-data  
 * PCH https://www.pch.net/resources/Routing_Data/  
 
-BGP Routing data is useful for Internet analysis. NZRS uses it to develop 
+BGP Routing data is useful for Internet topology analysis. NZRS uses it to develop 
 visualization of the Internet in New Zealand.
 
 ## Instructions
@@ -31,3 +31,11 @@ With the list of URLs, you can use any program to download them
 ## Example
 
 There is a complete example in the test-bgp-data-finder.py script
+
+Output will look like
+
+```
+http://archive.routeviews.org/route-views3/bgpdata/2015.08/RIBS/rib.20150812.2200.bz2
+http://data.ris.ripe.net/rrc10//2015.08/bview.20150812.1600.gz
+https://www.pch.net/resources/Routing_Data/2015/route-collector.lba.pch.net/route-collector.lba.pch.net.2015.08.12.gz
+```

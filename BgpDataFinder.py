@@ -1,8 +1,8 @@
+from __future__ import print_function
 __author__ = 'sebastian@nzrs.net.nz'
 
 """Generic abstract class to describe access to a BGP data provider"""
 
-from __future__ import print_function
 import sys
 
 class BgpDataFinder(object):
