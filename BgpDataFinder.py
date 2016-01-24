@@ -6,7 +6,7 @@ __author__ = 'sebastian@nzrs.net.nz'
 import sys
 
 class BgpDataFinder(object):
-    debug = False
+    show_debug = False
     base_url = None
     today = None
 
@@ -21,7 +21,7 @@ class BgpDataFinder(object):
         print("WARNING: ", *objs, file=sys.stderr)
 
     def debug(self, *objs):
-        if self.debug:
+        if self.show_debug:
             print("DEBUG: ", *objs, file=sys.stderr)
 
     def findsources(self):
